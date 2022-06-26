@@ -1,12 +1,2 @@
 theme: jekyll-theme-minimal
 
-$ ruby --version
-
-$ gem install bundler
-
-$ git clone https://github.com/Simpleyyt/jekyll-theme-next.git
-$ cd jekyll-theme-next
-
-$ bundle install
-
-$ bundle exec jekyll server
