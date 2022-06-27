@@ -13,6 +13,8 @@ ul
   	overflow: hidden;
  	background-color: #98bf21;
   	width:15%;
+	height:1000px;
+	float:left;
 }
 .menu a:link,a:visited
 {
@@ -20,7 +22,6 @@ ul
 	font-weight:bold;
 	color:#FFFFFF;
 	background-color:#98bf21;
-	width:15%;
 	text-align:center;
 	padding:4px;
 	text-decoration:none;
@@ -30,17 +31,30 @@ ul
 {
 	background-color:#7A991A;
 }
-p
-{
-	margin-left:50px;
-}
+
 .header
 {
 	background-color: #ffffff
 	text-align: center;
   	padding: 20px;
 }
-
+.content
+{
+	background-color: #ffffff;
+	float:left;
+	width: 85%;
+	height:1000px;
+}
+.content p
+{
+	margin-left:50px;
+}
+.footer
+{
+	background-color:#ffffff;
+	clear:both;
+	text-align:center;
+}
 </style>
 </head>
   
@@ -58,10 +72,10 @@ p
     <li><a href="/works.html">Publication</a></li>
     </ul></div>
  
-    <div id="content" style="background-color:#EEEEEE;height:1000px;float:left;">
+    <div class="content">
     <p>YJR Entertainment</p></div>
 
-    <div id="footer" style="background-color:#ffffff;clear:both;text-align:center;">
+    <div class="footer">
     版权 © Sheldon Yu</div>
     
     
