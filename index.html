@@ -9,7 +9,7 @@ ul
 	margin:0;
 	padding:0;
 }
-a:link,a:visited
+.menu a:link,a:visited
 {
 	display:block;
 	font-weight:bold;
@@ -21,7 +21,7 @@ a:link,a:visited
 	text-decoration:none;
 	text-transform:uppercase;
 }
-a:hover,a:active
+.menu a:hover,a:active
 {
 	background-color:#7A991A;
 }
@@ -29,6 +29,13 @@ p
 {
 	margin-left:50px;
 }
+.header
+{
+	background-color: #ffffff
+	text-align: center;
+  	padding: 20px;
+}
+
 </style>
 </head>
   
@@ -37,10 +44,10 @@ p
     
     <div id="container" style="width:1000px">
   
-    <div id="header" style="background-color:#ffffff;">
+    <div class="header">
     <h1 align="center">俞佳儒 Sheldon Yu</h1></div>
 
-    <div id="menu" style="background-color:#EEEEEE;height:1000px;width:200px;float:left;">
+    <div class="menu">
     <h3 align="center">菜单</h3>
     <ul>
     <li><a href="/fields.html">关注领域</a></li>
